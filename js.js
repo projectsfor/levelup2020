@@ -22,3 +22,10 @@ document.getElementsByClassName('minus')[0].addEventListener('click', function (
     let b = parseInt(document.querySelector('.num2').value);
     minus(a, b);
 });
+
+function validation(a, b) {
+    if(a === b)
+        return false;
+
+    return true;
+}
