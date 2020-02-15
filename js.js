@@ -15,7 +15,7 @@ document.querySelector('.pls').addEventListener('click', function (e) {
     sum(a, b);
 });
 
-document.querySelector('.minus').addEventListener('click', function (ev) {
+document.getElementsByClassName('minus')[0].addEventListener('click', function (ev) {
     ev.preventDefault();
     let a = parseInt(document.querySelector('.num1').value);
     let b = parseInt(document.querySelector('.num2').value);
